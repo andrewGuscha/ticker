@@ -356,7 +356,7 @@
         e.preventDefault();
 
         if (
-          ($target.attr("href") || $target.parents().attr("href")) && ticker.isMousemove)
+          ($target.attr("href") || $target.parents().attr("href")) && ticker.isMousemove
         ) {
           $target.on("click", function (e) {
             e.preventDefault();
