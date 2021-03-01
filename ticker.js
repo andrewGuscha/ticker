@@ -291,11 +291,11 @@
             diff = start - x,
             diffY = startY - y;
 
-          if (ticker.touch) {
-            $(document).on("touchmove", function (e) {
-              e.preventDefault();
-            });
-          }
+          //if (ticker.touch) {
+          //  $(document).on("touchmove", function (e) {
+          //    e.preventDefault();
+          //  });
+          //}
 
           if (ticker.settings.mode === "horizontal") {
             ticker.directionSwitcher = diff >= 0 ? -1 : 1;
