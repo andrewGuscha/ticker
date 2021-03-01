@@ -279,7 +279,7 @@
           posList = parseFloat($(this).css("left")),
           posListY = parseFloat($(this).css("top"));
 
-        $(e.target).off("click");
+        // $(e.target).off("click");
         clearInterval(ticker.intervalPointer);
         ticker.intervalPointer = false;
         flag = true;
